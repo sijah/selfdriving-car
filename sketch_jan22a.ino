@@ -1,6 +1,7 @@
 //self driving car 
 // written by sijah
-// 
+// feel free to edit give respect
+// thanks to all friends @awh
 
 
 
@@ -41,7 +42,7 @@ void gostraight();
 void leftturn();
 void turn();
 //Servo myservo;
-float x2lon = radians(00000000), x2lat = radians(000000000); //enter ur final location here
+float x2lon = radians(00000000), x2lat = radians(000000000); //enter ur final location here as lon and lat
 HMC5883L mag;
 int16_t mx, my, mz;
 float head, distance = 0.0;
